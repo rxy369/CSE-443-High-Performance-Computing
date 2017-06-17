@@ -1,0 +1,64 @@
+=================================================================
+==15546==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x60200002adf4 at pc 0x409974 bp 0x7ffffb2c9af0 sp 0x7ffffb2c9ae8
+READ of size 4 at 0x60200002adf4 thread T0
+    #0 0x409973 in doManagerTasks(std::string const&) /home/sosanma/NetBeansProjects/Exercise16/exercise16.cpp:60
+    #1 0x409e91 in main /home/sosanma/NetBeansProjects/Exercise16/exercise16.cpp:101
+    #2 0x7f7e779c5d1c in __libc_start_main (/lib64/libc.so.6+0x1ed1c)
+    #3 0x409438 (/home/sosanma/NetBeansProjects/Exercise16/Exercise16+0x409438)
+
+AddressSanitizer can not describe address in more detail (wild memory access suspected).
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/sosanma/NetBeansProjects/Exercise16/exercise16.cpp:60 doManagerTasks(std::string const&)
+Shadow bytes around the buggy address:
+  0x0c047fffd560: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffd570: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffd580: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffd590: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fffd5a0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+=>0x0c047fffd5b0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa[fa]fa
+  0x0c047fffd5c0: fa fa fa fa fa fa fa fa fa fa 00 00 fa fa fd fd
+  0x0c047fffd5d0: fa fa 00 07 fa fa 00 00 fa fa 00 00 fa fa 00 fa
+  0x0c047fffd5e0: fa fa 04 fa fa fa 07 fa fa fa 00 fa fa fa fd fa
+  0x0c047fffd5f0: fa fa 03 fa fa fa 05 fa fa fa 04 fa fa fa 04 fa
+  0x0c047fffd600: fa fa 04 fa fa fa fd fa fa fa fd fd fa fa 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Heap right redzone:      fb
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack partial redzone:   f4
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Contiguous container OOB:fc
+  ASan internal:           fe
+==15546==ABORTING
+Command exited with non-zero status 1
+	Command being timed: "mpiexec -n 2 ./Exercise16 numbers.txt"
+	User time (seconds): 0.24
+	System time (seconds): 0.22
+	Percent of CPU this job got: 53%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 177608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 9348
+	Voluntary context switches: 1254
+	Involuntary context switches: 288
+	Swaps: 0
+	File system inputs: 712
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

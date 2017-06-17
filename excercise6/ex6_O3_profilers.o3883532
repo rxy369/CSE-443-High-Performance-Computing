@@ -1,0 +1,60 @@
+Sum = 1073741832
+
+ Performance counter stats for './ex6 switch 250000000':
+
+       1913.080491      task-clock (msec)         #    1.000 CPUs utilized          
+                10      context-switches          #    0.005 K/sec                  
+                 2      cpu-migrations            #    0.001 K/sec                  
+               323      page-faults               #    0.169 K/sec                  
+     4,572,364,052      cycles                    #    2.390 GHz                      (83.33%)
+     1,836,465,574      stalled-cycles-frontend   #   40.16% frontend cycles idle     (83.32%)
+       120,205,213      stalled-cycles-backend    #    2.63% backend  cycles idle     (66.67%)
+     9,459,200,264      instructions              #    2.07  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  (83.36%)
+       861,533,416      branches                  #  450.338 M/sec                    (83.37%)
+        15,665,770      branch-misses             #    1.82% of all branches          (83.34%)
+
+       1.913590286 seconds time elapsed
+
+Sum = 1073741832
+
+ Performance counter stats for './ex6 if 250000000':
+
+       3115.673811      task-clock (msec)         #    1.000 CPUs utilized          
+                 6      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               322      page-faults               #    0.103 K/sec                  
+     8,158,106,188      cycles                    #    2.618 GHz                      (83.33%)
+       149,259,869      stalled-cycles-frontend   #    1.83% frontend cycles idle     (83.33%)
+        74,304,852      stalled-cycles-backend    #    0.91% backend  cycles idle     (66.67%)
+    21,682,814,829      instructions              #    2.66  insns per cycle        
+                                                  #    0.01  stalled cycles per insn  (83.33%)
+     4,674,856,135      branches                  # 1500.432 M/sec                    (83.33%)
+            58,240      branch-misses             #    0.00% of all branches          (83.34%)
+
+       3.114653533 seconds time elapsed
+
+==12711== Callgrind, a call-graph generating cache profiler
+==12711== Copyright (C) 2002-2010, and GNU GPL'd, by Josef Weidendorfer et al.
+==12711== Using Valgrind-3.6.1 and LibVEX; rerun with -h for copyright info
+==12711== Command: ./ex6 switch 250000000
+==12711== 
+==12711== For interactive control, run 'callgrind_control -h'.
+Sum = 1073741832
+==12711== 
+==12711== Events    : Ir
+==12711== Collected : 9455568644
+==12711== 
+==12711== I   refs:      9,455,568,644
+==12735== Callgrind, a call-graph generating cache profiler
+==12735== Copyright (C) 2002-2010, and GNU GPL'd, by Josef Weidendorfer et al.
+==12735== Using Valgrind-3.6.1 and LibVEX; rerun with -h for copyright info
+==12735== Command: ./ex6 if 250000000
+==12735== 
+==12735== For interactive control, run 'callgrind_control -h'.
+Sum = 1073741832
+==12735== 
+==12735== Events    : Ir
+==12735== Collected : 21674318632
+==12735== 
+==12735== I   refs:      21,674,318,632

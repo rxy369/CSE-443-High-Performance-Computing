@@ -1,0 +1,112 @@
+--------------[ columnSum_colMajor version stats ]-----------------
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum colMajor':
+
+     3,031,962,144      cache-references                                            
+       159,806,488      cache-misses              #    5.271 % of all cache refs    
+     2,603,863,129      branches                                                    
+           591,687      branch-misses             #    0.02% of all branches        
+
+      30.611051223 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum colMajor':
+
+     3,032,822,576      cache-references                                            
+       159,669,996      cache-misses              #    5.265 % of all cache refs    
+     2,604,280,567      branches                                                    
+           592,292      branch-misses             #    0.02% of all branches        
+
+      30.676026787 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum colMajor':
+
+     3,034,514,105      cache-references                                            
+       159,588,657      cache-misses              #    5.259 % of all cache refs    
+     2,604,213,326      branches                                                    
+           586,451      branch-misses             #    0.02% of all branches        
+
+      30.814826473 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum colMajor':
+
+     3,008,616,316      cache-references                                            
+       159,800,713      cache-misses              #    5.311 % of all cache refs    
+     2,602,851,840      branches                                                    
+           606,475      branch-misses             #    0.02% of all branches        
+
+      28.489588781 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum colMajor':
+
+     2,972,856,643      cache-references                                            
+       159,673,537      cache-misses              #    5.371 % of all cache refs    
+     2,603,880,584      branches                                                    
+           619,501      branch-misses             #    0.02% of all branches        
+
+      26.363543122 seconds time elapsed
+
+--------------[ columnSum_rowMajor version stats ]-----------------
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum rowMajor':
+
+        92,425,457      cache-references                                            
+        30,292,141      cache-misses              #   32.775 % of all cache refs    
+       716,686,888      branches                                                    
+           558,242      branch-misses             #    0.08% of all branches        
+
+       1.629489145 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum rowMajor':
+
+        85,302,806      cache-references                                            
+        28,628,499      cache-misses              #   33.561 % of all cache refs    
+       717,112,123      branches                                                    
+           557,300      branch-misses             #    0.08% of all branches        
+
+       1.611484216 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum rowMajor':
+
+        85,875,923      cache-references                                            
+        28,749,199      cache-misses              #   33.478 % of all cache refs    
+       717,070,879      branches                                                    
+           556,357      branch-misses             #    0.08% of all branches        
+
+       1.616824465 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum rowMajor':
+
+        85,216,516      cache-references                                            
+        28,575,209      cache-misses              #   33.532 % of all cache refs    
+       717,051,968      branches                                                    
+           554,553      branch-misses             #    0.08% of all branches        
+
+       1.607711749 seconds time elapsed
+
+colSum[10] = 12547500
+
+ Performance counter stats for './MatrixColumnSum rowMajor':
+
+        86,017,662      cache-references                                            
+        28,751,607      cache-misses              #   33.425 % of all cache refs    
+       717,096,974      branches                                                    
+           556,070      branch-misses             #    0.08% of all branches        
+
+       1.618291597 seconds time elapsed
+

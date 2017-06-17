@@ -1,0 +1,182 @@
+---------------------[ standard version stats ]---------------------
+Standard() method result = 93749999625000000
+
+ Performance counter stats for './unroll standard':
+
+      11058.536791      task-clock (msec)         #    1.000 CPUs utilized          
+                17      context-switches          #    0.002 K/sec                  
+                 7      cpu-migrations            #    0.001 K/sec                  
+               317      page-faults               #    0.029 K/sec                  
+    28,598,559,883      cycles                    #    2.586 GHz                      (83.33%)
+     2,575,612,301      stalled-cycles-frontend   #    9.01% frontend cycles idle     (83.33%)
+       261,955,803      stalled-cycles-backend    #    0.92% backend  cycles idle     (66.67%)
+    78,541,255,480      instructions              #    2.75  insns per cycle        
+                                                  #    0.03  stalled cycles per insn  (83.33%)
+    11,507,602,744      branches                  # 1040.608 M/sec                    (83.34%)
+           128,321      branch-misses             #    0.00% of all branches          (83.33%)
+
+      11.053306657 seconds time elapsed
+
+Standard() method result = 93749999625000000
+
+ Performance counter stats for './unroll standard':
+
+      10846.463325      task-clock (msec)         #    1.001 CPUs utilized          
+                15      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               316      page-faults               #    0.029 K/sec                  
+    28,606,364,452      cycles                    #    2.637 GHz                      (83.33%)
+     2,576,385,102      stalled-cycles-frontend   #    9.01% frontend cycles idle     (83.33%)
+       258,390,497      stalled-cycles-backend    #    0.90% backend  cycles idle     (66.67%)
+    78,512,599,129      instructions              #    2.74  insns per cycle        
+                                                  #    0.03  stalled cycles per insn  (83.34%)
+    11,512,176,951      branches                  # 1061.376 M/sec                    (83.34%)
+           133,679      branch-misses             #    0.00% of all branches          (83.33%)
+
+      10.840787581 seconds time elapsed
+
+Standard() method result = 93749999625000000
+
+ Performance counter stats for './unroll standard':
+
+      10849.529665      task-clock (msec)         #    1.001 CPUs utilized          
+                16      context-switches          #    0.001 K/sec                  
+                 2      cpu-migrations            #    0.000 K/sec                  
+               317      page-faults               #    0.029 K/sec                  
+    28,599,199,845      cycles                    #    2.636 GHz                      (83.33%)
+     2,575,176,460      stalled-cycles-frontend   #    9.00% frontend cycles idle     (83.34%)
+       275,029,810      stalled-cycles-backend    #    0.96% backend  cycles idle     (66.67%)
+    78,532,274,652      instructions              #    2.75  insns per cycle        
+                                                  #    0.03  stalled cycles per insn  (83.34%)
+    11,509,228,653      branches                  # 1060.804 M/sec                    (83.33%)
+           129,186      branch-misses             #    0.00% of all branches          (83.33%)
+
+      10.843845905 seconds time elapsed
+
+Standard() method result = 93749999625000000
+
+ Performance counter stats for './unroll standard':
+
+      10866.461334      task-clock (msec)         #    1.001 CPUs utilized          
+                16      context-switches          #    0.001 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               316      page-faults               #    0.029 K/sec                  
+    28,604,685,535      cycles                    #    2.632 GHz                      (83.33%)
+     2,576,586,588      stalled-cycles-frontend   #    9.01% frontend cycles idle     (83.33%)
+       263,105,350      stalled-cycles-backend    #    0.92% backend  cycles idle     (66.67%)
+    78,520,842,778      instructions              #    2.75  insns per cycle        
+                                                  #    0.03  stalled cycles per insn  (83.33%)
+    11,510,994,996      branches                  # 1059.314 M/sec                    (83.33%)
+           132,415      branch-misses             #    0.00% of all branches          (83.34%)
+
+      10.860865394 seconds time elapsed
+
+Standard() method result = 93749999625000000
+
+ Performance counter stats for './unroll standard':
+
+      10847.004435      task-clock (msec)         #    1.001 CPUs utilized          
+                14      context-switches          #    0.001 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               317      page-faults               #    0.029 K/sec                  
+    28,599,317,029      cycles                    #    2.637 GHz                      (83.33%)
+     2,576,094,169      stalled-cycles-frontend   #    9.01% frontend cycles idle     (83.33%)
+       203,589,726      stalled-cycles-backend    #    0.71% backend  cycles idle     (66.67%)
+    78,531,312,764      instructions              #    2.75  insns per cycle        
+                                                  #    0.03  stalled cycles per insn  (83.34%)
+    11,508,342,373      branches                  # 1060.970 M/sec                    (83.34%)
+           133,779      branch-misses             #    0.00% of all branches          (83.33%)
+
+      10.841265539 seconds time elapsed
+
+---------------------[ unrolled version stats ]---------------------
+unrolled() method result = 93749999625000000
+
+ Performance counter stats for './unroll unrolled':
+
+       6484.557778      task-clock (msec)         #    1.000 CPUs utilized          
+                14      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               317      page-faults               #    0.049 K/sec                  
+    17,057,284,045      cycles                    #    2.630 GHz                      (83.34%)
+     9,043,116,440      stalled-cycles-frontend   #   53.02% frontend cycles idle     (83.34%)
+        32,122,899      stalled-cycles-backend    #    0.19% backend  cycles idle     (66.67%)
+    32,024,515,576      instructions              #    1.88  insns per cycle        
+                                                  #    0.28  stalled cycles per insn  (83.34%)
+     1,505,469,057      branches                  #  232.162 M/sec                    (83.33%)
+            60,218      branch-misses             #    0.00% of all branches          (83.32%)
+
+       6.481452689 seconds time elapsed
+
+unrolled() method result = 93749999625000000
+
+ Performance counter stats for './unroll unrolled':
+
+       6467.438316      task-clock (msec)         #    1.000 CPUs utilized          
+                12      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               317      page-faults               #    0.049 K/sec                  
+    17,056,999,235      cycles                    #    2.637 GHz                      (83.32%)
+     9,043,022,372      stalled-cycles-frontend   #   53.02% frontend cycles idle     (83.34%)
+        32,748,252      stalled-cycles-backend    #    0.19% backend  cycles idle     (66.68%)
+    32,028,302,692      instructions              #    1.88  insns per cycle        
+                                                  #    0.28  stalled cycles per insn  (83.34%)
+     1,505,423,430      branches                  #  232.770 M/sec                    (83.33%)
+            60,571      branch-misses             #    0.00% of all branches          (83.33%)
+
+       6.464520621 seconds time elapsed
+
+unrolled() method result = 93749999625000000
+
+ Performance counter stats for './unroll unrolled':
+
+       6463.892772      task-clock (msec)         #    1.000 CPUs utilized          
+                11      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               316      page-faults               #    0.049 K/sec                  
+    17,056,759,730      cycles                    #    2.639 GHz                      (83.33%)
+     9,041,308,226      stalled-cycles-frontend   #   53.01% frontend cycles idle     (83.33%)
+        29,999,841      stalled-cycles-backend    #    0.18% backend  cycles idle     (66.67%)
+    32,021,996,100      instructions              #    1.88  insns per cycle        
+                                                  #    0.28  stalled cycles per insn  (83.34%)
+     1,505,485,120      branches                  #  232.907 M/sec                    (83.34%)
+            59,672      branch-misses             #    0.00% of all branches          (83.33%)
+
+       6.460773251 seconds time elapsed
+
+unrolled() method result = 93749999625000000
+
+ Performance counter stats for './unroll unrolled':
+
+       6461.410143      task-clock (msec)         #    1.000 CPUs utilized          
+                 9      context-switches          #    0.001 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               316      page-faults               #    0.049 K/sec                  
+    17,054,020,626      cycles                    #    2.639 GHz                      (83.34%)
+     9,039,314,502      stalled-cycles-frontend   #   53.00% frontend cycles idle     (83.34%)
+        30,610,484      stalled-cycles-backend    #    0.18% backend  cycles idle     (66.68%)
+    32,021,118,581      instructions              #    1.88  insns per cycle        
+                                                  #    0.28  stalled cycles per insn  (83.34%)
+     1,505,623,978      branches                  #  233.018 M/sec                    (83.33%)
+            58,032      branch-misses             #    0.00% of all branches          (83.33%)
+
+       6.458233197 seconds time elapsed
+
+unrolled() method result = 93749999625000000
+
+ Performance counter stats for './unroll unrolled':
+
+       6475.752225      task-clock (msec)         #    1.000 CPUs utilized          
+                11      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               317      page-faults               #    0.049 K/sec                  
+    17,043,855,808      cycles                    #    2.632 GHz                      (83.33%)
+     9,028,371,464      stalled-cycles-frontend   #   52.97% frontend cycles idle     (83.33%)
+        15,881,398      stalled-cycles-backend    #    0.09% backend  cycles idle     (66.67%)
+    32,021,336,909      instructions              #    1.88  insns per cycle        
+                                                  #    0.28  stalled cycles per insn  (83.34%)
+     1,505,325,824      branches                  #  232.456 M/sec                    (83.34%)
+            63,578      branch-misses             #    0.00% of all branches          (83.33%)
+
+       6.472676366 seconds time elapsed
+

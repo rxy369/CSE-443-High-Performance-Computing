@@ -1,0 +1,73 @@
+Number 6980886 has 24 factors.
+Number 4686915 has 16 factors.
+Number 4288335 has 32 factors.
+Number 9810492 has 24 factors.
+Number 9691421 has 4 factors.
+Number 540027 has 20 factors.
+Number 2570059 has 4 factors.
+Number 7563926 has 8 factors.
+Number 433426 has 16 factors.
+Number 3505736 has 24 factors.
+Number 1645368 has 32 factors.
+Number 7006429 has 4 factors.
+Number 1071530 has 16 factors.
+Number 3715123 has 4 factors.
+Number 8753135 has 8 factors.
+Number 2029802 has 8 factors.
+Number 5773058 has 4 factors.
+Number 5948167 has 4 factors.
+Number 9068456 has 16 factors.
+Number 6528042 has 24 factors.
+Number 3427373 has 4 factors.
+Number 4594919 has 16 factors.
+Number 6948537 has 4 factors.
+Number 3644324 has 12 factors.
+Number 8714370 has 64 factors.
+Number 4853526 has 32 factors.
+Number 4318980 has 24 factors.
+Number 9291873 has 4 factors.
+Number 3049170 has 64 factors.
+Number 5547281 has 8 factors.
+Number 4470925 has 12 factors.
+Number 7386327 has 12 factors.
+Number 9176505 has 16 factors.
+Number 2671729 has 2 factors.
+Number 3975857 has 2 factors.
+Number 4403895 has 16 factors.
+Number 1150545 has 32 factors.
+Number 8283367 has 8 factors.
+Number 6040364 has 24 factors.
+Number 363750 has 40 factors.
+Number 6476808 has 32 factors.
+Number 9997178 has 16 factors.
+Number 9443584 has 36 factors.
+Number 8552651 has 4 factors.
+Number 4662399 has 32 factors.
+Number 4145060 has 24 factors.
+Number 4043368 has 32 factors.
+Number 4260012 has 24 factors.
+Number 9748586 has 4 factors.
+Number 6347539 has 16 factors.
+	Command being timed: "mpiexec -n 2 ./homework7 numbers_100.txt"
+	User time (seconds): 2.28
+	System time (seconds): 1.58
+	Percent of CPU this job got: 86%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 145576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7895
+	Voluntary context switches: 1080
+	Involuntary context switches: 117
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
